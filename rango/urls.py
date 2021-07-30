@@ -1,6 +1,3 @@
-# adding login, register and logout and other templates
-
-
 from django.urls import path
 from rango import views
 

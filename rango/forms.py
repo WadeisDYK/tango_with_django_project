@@ -1,8 +1,8 @@
-# adding page form and user form
 from django import forms
 from django.contrib.auth.models import User
 from rango.models import Page, Category, UserProfile
 
+# We could add these forms to views.py, but it makes sense to split them off into their own file.
 
 class CategoryForm(forms.ModelForm):
     name = forms.CharField(max_length=Category.NAME_MAX_LENGTH, help_text="Please enter the category name.")

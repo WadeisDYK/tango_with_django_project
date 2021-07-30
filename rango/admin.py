@@ -1,5 +1,3 @@
-# register category, page and user profile 
-
 from django.contrib import admin
 from rango.models import Category, Page
 from rango.models import UserProfile
